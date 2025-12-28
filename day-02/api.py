@@ -1,8 +1,8 @@
 import requests
 
-url = "https://jsonplaceholder.typicode.com/todos/1"
+api_url = "https://jsonplaceholder.typicode.com/todos/1"
 
-response = requests.get(url=url)
+response = requests.get(url=api_url)
 
 for key, value in response.json().items():
 
